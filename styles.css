@@ -58,6 +58,7 @@ svg{
     font-size: 70rem;
     dominant-baseline: middle;
     text-anchor: middle;
+    animation: bg-letter 2s ease-in-out;
 }
 .bg-name{
     font-size: 20rem;
@@ -74,6 +75,7 @@ svg{
     height: 100%;
     z-index: -1;
     transform: translate(-10%, 0%);
+    animation: bg-img 1s ease-in-out;
 }
 .page-overlay{
     position: absolute;
@@ -84,4 +86,22 @@ svg{
     background: linear-gradient(0deg, rgba(26,25,25,1) 0%, rgba(26,25,25,0) 100%);
     z-index: -1;
     opacity: 1;
+}
+
+@keyframes bg-letter{
+    0%{
+        stroke-dasharray: 0 1000;
+    }
+    100%{
+        stroke-dasharray: 1000 0;
+    }
+}
+@keyframes bg-img{
+    0%{
+        opacity: 0;
+
+    }
+    100%{
+        opacity: 1;
+    }
 }
