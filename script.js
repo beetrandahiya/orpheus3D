@@ -8,6 +8,7 @@ var bg_letter = document.querySelector('.bg-letter');
 bg_letter.setAttribute('x', window.innerWidth / 2-5*window.innerWidth/100);
 bg_letter.setAttribute('y', window.innerHeight / 2+10*window.innerHeight/100);
 
+var bg_img = document.querySelector('.bg-img');
 
 // hide description-1 and reveal the .description-2 element gradually as mouse moves to the right
 var description_2 = document.querySelector('.description-2');
@@ -27,6 +28,11 @@ window.addEventListener('mousemove', function(e) {
     description_1.style.opacity = 1 - x;
     description_2.style.opacity = x;
     }
+    //move bg-img to the right as mouse moves to the right
+    var val=10+0.5*e.clientX/window.innerWidth;
+    bg_img.style.transform = 'translateX(-'+val+'%)';
+    console.log(e.clientX);
     });
+
 
 
