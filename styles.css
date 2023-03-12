@@ -114,3 +114,35 @@ svg{
     opacity: 1;
     transition: all 1s ease-in-out;
 }
+
+.enter-button{
+    position: absolute;
+    bottom: 10%;
+    right:5%;
+    width: 10%;
+    height: 7%;
+    margin:0;
+    padding: 0;
+    z-index: 3;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 28px;
+    border: #ccae7e44 2px solid;
+    /*align text vertically and horizontally*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+.enter-button a{
+    text-decoration: none;
+    color: #ccae7eaa;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.enter-button:hover{
+    border: #ccae7eaa 2px solid;
+    transition: all 0.5s ease-in-out;
+}
+
