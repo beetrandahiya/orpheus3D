@@ -75,7 +75,7 @@ svg{
     height: 100%;
     z-index: -1;
     transform: translate(-10%, 0%);
-    animation: bg-img 1s ease-in-out;
+    animation: bg-img 2s ease-in-out;
 }
 .page-overlay{
     position: absolute;
