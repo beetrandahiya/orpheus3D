@@ -19,6 +19,3 @@ bg_letter.textContent = artworks[current].querySelector('h1').textContent[0];
 var bg_name = document.querySelector('.bg-name');
 bg_name.textContent = artworks[current].querySelector('h1').textContent;
 
-
-
-
