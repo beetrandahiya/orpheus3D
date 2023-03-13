@@ -157,3 +157,31 @@ svg{
     transition: all 0.5s ease-in-out;
 }
 
+.controls{
+    position: absolute;
+    bottom: 10%;
+    right:5%;
+    width: 10%;
+    height: 7%;
+    margin:0;
+    padding: 0;
+    z-index: 3;
+    background-color: transparent;
+    /*align text vertically and horizontally*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+.control-btn{
+    color: #ccae7eaa;
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0 1rem;
+    border-radius: 50%;
+}
+.controls svg{
+    background-color: #44e;
+}

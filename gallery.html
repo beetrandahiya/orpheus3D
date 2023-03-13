@@ -12,7 +12,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
     <link rel="manifest" href="./site.webmanifest">
     <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="stylesheet" href="https://kit.fontawesome.com/1d058173cd.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1d058173cd.js" crossorigin="anonymous"></script>
+
     <title>Orpheus 3D</title>
 </head>
 
@@ -35,8 +36,14 @@
     </div>
 
     <!-- carousel button at bottom right-->
-    <button class="control-btn" id="art-back"><i class="fa-solid fa-angle-right"></i></button>
+    <div class="controls">
+    <button class="control-btn" id="art-back">
+        <svg src="./arrow_forward.svg" stroke="#ccae7e"></svg>
+        </button>
+    <span>1</span>
 
+    <button class="control-btn" id="art-next"><i class="fa-solid fa-angle-right"></i></button>
+</div>
     <script src="./script-gallery.js"></script>
 </body>
 
