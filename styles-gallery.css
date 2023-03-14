@@ -165,6 +165,20 @@ svg{
     height: 7%;
     margin:0;
     padding: 0;
-    z-index: 3;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    
+}
+/* make three control buttons inside .controls div , all square, aligned horizontally*/
+.control-btn{
+    width: 33%;
+    height: 100%;
+    margin:0;
+    padding: auto 0;
+    cursor: pointer;
     background-color: transparent;
+    border: #ccae7e44 2px solid;
+    text-align: center;
 }
