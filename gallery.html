@@ -12,14 +12,13 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
     <link rel="manifest" href="./site.webmanifest">
     <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
-    <script src="https://kit.fontawesome.com/1d058173cd.js" crossorigin="anonymous"></script>
-
-    <title>Orpheus 3D</title>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Orpheus 3D | Gallery</title>
 </head>
 
 <body>
 
-    <div class="artwork" id="artwork-0">
+  <!--  <div class="artwork" id="artwork-0">
         <main>
             <h1>Held Together</h1>
             <h2>Video</h2>
@@ -30,16 +29,17 @@
 
         <video class="video" src="./videos/balls_and_balls1_shareable.mp4" autoplay loop muted id="art-0"></video>
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="bg-svg">
             <text x="0" y="50vh" class="bg-letter"></text>
             <text x="50" y="75vh" class="bg-name"></text>
         </svg>
     </div>
+    -->
 
     <div class="controls">
-        <div class="control-btn" id="control-back"><span>B</span></div>
-        <div class="control-btn" id="art-no">1</div>
-        <div class="control-btn" id="control-back">F</div>
+        <div class="control-btn" id="control-back"><i class="ph-thin ph-caret-left"></i></div>
+        <div class="control-btn-num" id="art-no"></div>
+        <div class="control-btn" id="control-next"><i class="ph-thin ph-caret-right"></i></div>
     </div>
     <script src="./script-gallery.js"></script>
 </body>
