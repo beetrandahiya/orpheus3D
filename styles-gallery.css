@@ -29,6 +29,10 @@ h1{
     margin: 0;
     padding: 1rem;
 }
+h1::selection{
+    background-color: #ccae7e;
+    color: #1a1919;
+}
 h2{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 2rem;
@@ -38,6 +42,10 @@ h2{
     margin: 0;
     padding: 0rem 1.5rem 2rem 1.5rem;
     letter-spacing: 0.2rem;
+}
+h2::selection{
+    background-color: #7f7f7f;
+    color: #1a1919;
 }
 p{
     font-family: 'Montserrat', sans-serif;
@@ -49,6 +57,10 @@ p{
     padding: 0rem 1.5rem 2rem 5.5rem;
     width: 60%;
 }
+p::selection{
+    background-color: #7f7f7f;
+    color: #1a1919;
+}
 main{
     position: absolute;
     top: 50%;
@@ -59,7 +71,6 @@ main{
 .bg-svg{
     position: absolute;
     z-index: -2;
-
 }
 .bg-letter{
     stroke: #ccae7e22;
@@ -69,12 +80,14 @@ main{
     dominant-baseline: middle;
     text-anchor: middle;
     animation: bg-letter 2s ease-in-out;
+    user-select: none;
 }
 .bg-name{
     font-size: 20rem;
     stroke: none;
     stroke-width: 0;
     fill:#7f7f7f11;
+    user-select: none;
 }
 video{
     position: absolute;
@@ -205,6 +218,9 @@ img{
     color: #ccae7e;
     font-size: 2rem;
 }
+.control-btn:active{
+    font-size: 1.8rem;
+}
 .control-btn-num{
     width: 33%;
     height: 100%;
@@ -219,4 +235,5 @@ img{
     font-size: 1.5rem;
     color: #ccae7eaa;
 }
+
 
