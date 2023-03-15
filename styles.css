@@ -161,4 +161,13 @@ svg{
     border: #ccae7eaa 2px solid;
 }
 
-
+.notif{
+    background-color: #7Zf7f7f,
+    color: #ccae7e;
+    width: fit-content;
+    padding:10px 30px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    margin: auto auto;
+}
