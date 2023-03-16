@@ -23,7 +23,21 @@ artwork_details = {
         "media": "Image",
         "info": "Soft long fur shows us how beauty, softness and strength can coexist. Softness can represent resilience, and vulnerability can be a source of power.",
         "src": "./images/furball_2.png"
-    }
+    },
+    3: {
+        "serial": 3,
+        "name": "Coral leafs",
+        "media": "Image",
+        "info": "Even the most delicate and fragile organisms can create the most breathtaking beauty. This soft pink and glassy coral is a testament to such beauty and complexity of nature. In the midst of chaos, there cane be a sense of order and balance",
+        "src": "./images/coral_2_b.png"
+    },
+    4: {
+        "serial": 4,
+        "name": "Knotted_1",
+        "media": "Image",
+        "info": "Twisted and knotted, yet beautiful and strong. The colorful knots in the Knotted series represent the complexity of life and the beauty of the chaos and our ability to keep that chaos Knotted.",
+        "src": "./images/knots_2.png"
+    },
 }
 
 

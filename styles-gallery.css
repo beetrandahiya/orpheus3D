@@ -111,8 +111,10 @@ img{
     transform: translate(10%, -50%);
     animation: bg-img 2s ease-in-out;
     border-radius: 12px;
-    border: #ccae7e44 2px solid;   
+    border: #ccae7e44 2px solid;  
+     
 }
+
 
 .page-overlay{
     position: absolute;
