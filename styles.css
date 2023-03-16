@@ -162,12 +162,32 @@ svg{
 }
 
 .notif{
-    background-color: #7Zf7f7f,
+    background-color: #7f7f7f22;
     color: #ccae7e;
     width: fit-content;
-    padding:10px 30px;
-    border-radius: 20px;
+    padding:15px 30px;
+    border-radius: 30px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     margin: auto auto;
+    transform: translate(0, 60px);
+}
+/*make notif appear when page is loaded and disappear after 3 seconds*/
+.notif{
+    animation: notif 4s ease-in-out 1 forwards;
+}
+
+@keyframes notif{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
