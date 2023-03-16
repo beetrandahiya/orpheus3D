@@ -92,7 +92,7 @@ main{
 video{
     position: absolute;
     object-fit: cover;
-    width: 540px;
+    width: 38vw;
     z-index: -1;
     top: 50%;
     left: 0;
@@ -104,7 +104,7 @@ video{
 img{
     position: absolute;
     object-fit: cover;
-    width: 540px;
+    width: 38vw;
     z-index: -1;
     top: 50%;
     left: 0;
