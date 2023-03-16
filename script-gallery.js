@@ -7,7 +7,7 @@ artwork_details ={
         "serial": 0,
         "name": "Held Together",
         "media": "Video",
-        "info": "Captivating display of unity and synery as many small balls are held together in harmony by an inwards force and continous loops of light(hope) protect the unity",
+        "info": "Captivating display of unity and synergy as many small balls are held together in harmony by an inwards force and continous loops of light(hope) protect the unity",
         "src": "./videos/balls_and_balls1_shareable.mp4"
 
     },
