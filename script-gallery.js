@@ -14,9 +14,16 @@ artwork_details = {
         "serial": 1,
         "name": "Coral",
         "media": "Image",
-        "info": "happy gayl shit, dont know what",
+        "info": "Nature's Masterpiece in a sphere, Mesmerizing coral with very detailed texturing, one of the first realistic textures I made.",
         "src": "./images/coral_1.png"
     },
+    2: {
+        "serial": 2,
+        "name": "Furball",
+        "media": "Image",
+        "info": "Soft long fur shows us how beauty, softness and strength can coexist. Softness can represent resilience, and vulnerability can be a source of power.",
+        "src": "./images/furball_2.png"
+    }
 }
 
 
@@ -122,3 +129,6 @@ next_btn.addEventListener('click', function () {
     make_artwork_page(current);
     control_btn_num.textContent = current + 1;
 });
+
+
+

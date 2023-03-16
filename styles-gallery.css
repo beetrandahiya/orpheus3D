@@ -91,30 +91,41 @@ main{
 }
 video{
     position: absolute;
-    top: 0;
-    left: 0;
     object-fit: cover;
     width: 540px;
-    height: 540px;
     z-index: -1;
-    transform: translate(15%, 25%);
+    top: 50%;
+    left: 0;
+    transform: translate(10%, -50%);
     animation: bg-img 2s ease-in-out;
     border-radius: 12px;
     border: #ccae7e44 2px solid;   
 }
 img{
     position: absolute;
-    top: 0;
-    left: 0;
     object-fit: cover;
     width: 540px;
-    height: 540px;
     z-index: -1;
-    transform: translate(15%, 25%);
+    top: 50%;
+    left: 0;
+    transform: translate(10%, -50%);
     animation: bg-img 2s ease-in-out;
     border-radius: 12px;
     border: #ccae7e44 2px solid;   
 }
+/*click on image to make it full screen*/
+img:active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    object-fit: cover;
+    border-radius: 0;
+    border: none;
+}
+
 .page-overlay{
     position: absolute;
     bottom: 0;
