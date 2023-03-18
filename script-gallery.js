@@ -50,7 +50,7 @@ artwork_details = {
         "name": "Bloom_1",
         "media": "Image",
         "info": "Windows 11 Bloom inspired wallpaper, with a pink, glossy bloom,a sense of playfulness and youthfulness, as well as a hint of elegance and refinement.",
-        "src": "./images/bloom_1.png"
+        "src": "./images/bloom_wallpaper_3.png"
     },
 }
 
