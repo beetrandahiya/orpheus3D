@@ -38,6 +38,20 @@ artwork_details = {
         "info": "Twisted and knotted, yet beautiful and strong. The colorful knots in the Knotted series represent the complexity of life and the beauty of the chaos and our ability to keep that chaos Knotted.",
         "src": "./images/knots_2.png"
     },
+    5: {
+        "serial": 5,
+        "name": "Knotted_2",
+        "media": "Image",
+        "info": "Twisted and knotted, yet beautiful and strong. The colorful knots in the Knotted series represent the complexity of life and the beauty of the chaos and our ability to keep that chaos Knotted.",
+        "src": "./images/knots_1.png"
+    },
+    6: {
+        "serial": 6,
+        "name": "Bloom_1",
+        "media": "Image",
+        "info": "Windows 11 Bloom inspired wallpaper, with a pink, glossy bloom,a sense of playfulness and youthfulness, as well as a hint of elegance and refinement.",
+        "src": "./images/bloom_1.png"
+    },
 }
 
 
